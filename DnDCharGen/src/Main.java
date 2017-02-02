@@ -63,6 +63,14 @@ public class Main implements ActionListener {
 		pane.add(playerNameText, c);
 		
 		JLabel charFaction = new JLabel("Faction");
+		c.gridx = 8;
+		c.gridy = 0;
+		pane.add(charFaction, c);
+		
+		JTextField charFactionText = new JTextField(15);
+		c.gridx = 9;
+		c.gridy = 0;
+		pane.add(charFactionText, c);
 		
 		
 		JButton submit = new JButton("Submit");
